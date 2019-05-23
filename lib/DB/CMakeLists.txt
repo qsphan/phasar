@@ -20,8 +20,8 @@ add_phasar_library(phasar_db
 set(phasar_db_public_dep
   ${Boost_LIBRARIES}
   phasar_passes
+  phasar_doesnotexist
   ${SQLITE3_LIBRARY}
-  # mysqlcppconn
 )
 
 target_link_libraries(phasar_db
